@@ -1,11 +1,13 @@
 ﻿using ItemsTrabajo.BLL.DTOs;
 using ItemsTrabajo.BLL.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ItemsTrabajo.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize] // <-- Requiere JWT válido para cualquier Endpoint de Ítems
     public class WorkItemsController : ControllerBase
     {
         private readonly IWorkItemService _workItemService;
