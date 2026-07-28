@@ -30,3 +30,7 @@ Asumiendo que tu proyecto de microservicio de usuarios/auth se llama AuthMicrose
 # Resumen de Puertos y URLs del Sistema
 
 <img width="585" height="325" alt="image" src="https://github.com/user-attachments/assets/da58a211-947f-4dc7-9d33-ded97347d14d" />
+
+
+# Esquema de Base de datos en esta ubicacion:
+<img width="1451" height="906" alt="image" src="https://github.com/user-attachments/assets/156c6fbc-d0de-49ae-987f-5477dbfbabd8" />
